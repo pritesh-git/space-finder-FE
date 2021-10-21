@@ -1,13 +1,15 @@
 import React, { SyntheticEvent } from "react";
-import { CustomInput, LoginState } from "../model/Model";
+import { CustomInput, LoginState, User } from "../model/Model";
 import { AuthService } from "../services/AuthService";
+import history from "../utils/history";
 import "../styles/LoginStyle.css";
 
 interface LoginProps {
   authService: AuthService;
+  setUser: (user: User) => void;
 }
 
-export class LoginApp extends React.Component<LoginProps, LoginState> {
+export class LoginComponent extends React.Component<LoginProps, LoginState> {
   state: LoginState = {
     userName: "",
     password: "",
@@ -40,6 +42,8 @@ export class LoginApp extends React.Component<LoginProps, LoginState> {
       this.setState({
         loginSuccessfull: true,
       });
+      this.props.setUser(result);
+      history.push("/profile");
     } else {
       this.setState({
         loginSuccessfull: false,

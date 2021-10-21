@@ -13,3 +13,8 @@ export interface LoginState {
 export interface CustomInput {
   target: HTMLInputElement;
 }
+
+export interface UserAttribute {
+  Name: string;
+  Value: string;
+}

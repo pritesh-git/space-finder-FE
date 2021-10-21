@@ -1,21 +1,21 @@
 .divStyle {
-    margin: "10% 40% 0";
-    border: "2px solid blue";
-    border-radius: "2rem";
-    font-size: "30px";
-    text-align: "center";
+    margin: 10% 40% 0;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    font-size: 30px;
+    text-align: center;
 }
 
 .btnStyle {
-    font-size: "25px";
-    border: "2px solid blue";
-    border-radius: "2rem";
-    margin: "1rem";
-    padding: "0.5rem 2.5rem";
+    font-size: 25px;
+    border: 2px solid blue;
+    border-radius: 2rem;
+    margin: 1rem;
+    padding: 0.5rem 2.5rem;
 }
 
 .inputStyle {
-    font-size: "15px";
-    margin: "0.5rem";
-    padding: "0.5rem 1rem";
+    font-size: 15px;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
 }
