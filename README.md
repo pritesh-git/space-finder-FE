@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tenants Dashboard Practice Project
+
+This is a practice project for building a tenants dashboard using **React**, **Next.js**, and **Node.js**. The goal is to learn and experiment with modern web development tools and patterns, including API integration, state management, and responsive UI design.
+
+## Features
+
+- **Profile Management:** View and update user profile information, including name, email, phone, and payment details.
+- **API Integration:** Fetch and update profile data using RESTful endpoints.
+- **Responsive Design:** Layout adapts to different screen sizes using Tailwind CSS.
+- **Practice UI:** Simple, clean interface for learning and experimentation.
 
 ## Getting Started
 
-First, run the development server:
+1. **Install dependencies:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Run the development server:**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+   ```bash
+   npm run dev
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Open your browser:**  
+   Visit [http://localhost:3000](http://localhost:3000) to view the dashboard.
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+- `/app/profile/page.js`  
+  Main profile page. Fetches user data, displays a form, and allows updates.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `/api/profile`  
+  API endpoint for getting and updating profile data (mocked for practice).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `/styles/globals.css`  
+  Global styles for dark font color and centered content.
 
-## Deploy on Vercel
+## Notes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- This project is for practice and learning purposes only.
+- Data is mocked and not persisted.
+- Feel free to modify, experiment, and break things!
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+
+MIT (for practice use)
