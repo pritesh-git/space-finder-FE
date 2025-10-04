@@ -1,0 +1,143 @@
+{
+  "tenants": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "john@example.com",
+      "phone": "555-0101",
+      "property": "Apt 101",
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Wade Warren",
+      "email": "wade@example.com",
+      "phone": "555-0102",
+      "property": "Apt 202",
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "Jenny Wilson",
+      "email": "jenny@example.com",
+      "phone": "555-0103",
+      "property": "Apt 303",
+      "status": "Active"
+    },
+    {
+      "id": 4,
+      "name": "Robert Fox",
+      "email": "robert@example.com",
+      "phone": "555-0104",
+      "property": "Apt 404",
+      "status": "Pending"
+    },
+    {
+      "id": 5,
+      "name": "Eleanor Pena",
+      "email": "eleanor@example.com",
+      "phone": "555-0105",
+      "property": "Apt 505",
+      "status": "Active"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "tenant": "John Smith",
+      "amount": 1200,
+      "date": "2024-04-15",
+      "status": "Paid"
+    },
+    {
+      "id": 2,
+      "tenant": "Wade Warren",
+      "amount": 1350,
+      "date": "2024-04-12",
+      "status": "Paid"
+    },
+    {
+      "id": 3,
+      "tenant": "Jenny Wilson",
+      "amount": 1100,
+      "date": "2024-04-20",
+      "status": "Pending"
+    },
+    {
+      "id": 4,
+      "tenant": "Robert Fox",
+      "amount": 1450,
+      "date": "2024-03-28",
+      "status": "Overdue"
+    },
+    {
+      "id": 5,
+      "tenant": "Eleanor Pena",
+      "amount": 1300,
+      "date": "2024-04-18",
+      "status": "Paid"
+    }
+  ],
+  "workOrders": [
+    {
+      "id": 1,
+      "tenant": "John Smith",
+      "company": "Bills plumbing",
+      "issue": "Leaky kitchen sink",
+      "status": "Contacted",
+      "date": "21/04/24",
+      "time": "11:32 AM"
+    },
+    {
+      "id": 2,
+      "tenant": "Wade Warren",
+      "company": "Estep electric",
+      "issue": "Bedroom lights flickering",
+      "status": "Pending",
+      "date": "18/03/24",
+      "time": "10:02 AM"
+    },
+    {
+      "id": 3,
+      "tenant": "Jenny Wilson",
+      "company": "Bills plumbing",
+      "issue": "Clogged toilet",
+      "status": "Waiting",
+      "date": "02/03/24",
+      "time": "01:24 PM"
+    },
+    {
+      "id": 4,
+      "tenant": "Guy Hawkins",
+      "company": "Air leaks",
+      "issue": "Cracked window pane",
+      "status": "Contacted",
+      "date": "24/02/24",
+      "time": "05:20 PM"
+    },
+    {
+      "id": 5,
+      "tenant": "Robert Fox",
+      "company": "Bills plumbing",
+      "issue": "Water heater not heating",
+      "status": "Contacted",
+      "date": "22/02/24",
+      "time": "08:32 AM"
+    },
+    {
+      "id": 6,
+      "tenant": "Eleanor Pena",
+      "company": "Estep electric",
+      "issue": "Faulty electrical outlet",
+      "status": "Pending",
+      "date": "16/02/24",
+      "time": "04:23 PM"
+    }
+  ],
+  "profile": {
+    "name": "Vikash Kumar",
+    "email": "example@gmail.com",
+    "phone": "555-0100",
+    "address": "123 Main St, City, State 12345"
+  }
+}

@@ -20,7 +20,30 @@
 }
 
 body {
-  background: var(--background);
   color: var(--foreground);
+  background: var(--background);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   font-family: Arial, Helvetica, sans-serif;
+  font-family:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+body,
+html {
+  color: #222; /* dark font color */
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+main,
+section {
+  display: flex;
+  justify-content: center;
+  min-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100px;
 }
